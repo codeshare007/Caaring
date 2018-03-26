@@ -143,12 +143,10 @@ SENDGRID_SANDBOX_MODE_IN_DEBUG = False
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-PROJECT_ROOT = os.path.abspath(os.path.dirname(__name__))
+#PROJECT_ROOT = os.path.abspath(os.path.dirname(__name__))
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'caaring/static'),
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR, 'static'),
-]
+
