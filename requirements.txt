@@ -2,6 +2,7 @@ dj-database-url==0.5.0
 Django==1.11.4
 django-sendgrid-v5==0.6.87
 django-widget-tweaks==1.4.1
+gunicorn==19.7.1
 python-decouple==3.1
 python-http-client==3.0.0
 pytz==2017.3
