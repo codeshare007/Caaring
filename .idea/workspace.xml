@@ -2,80 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1bc265f-851b-48e5-a2e5-ef267eb90932" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/software.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/accounts/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/accounts/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/accounts/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/accounts/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/accounts/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/accounts/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/forms.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0002_cab_cab_admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0003_auto_20180325_1919.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0004_auto_20180326_0036.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0005_auto_20180326_0038.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0006_auto_20180326_0055.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0007_auto_20180326_0059.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0008_auto_20180326_0209.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0009_auto_20180326_1132.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0010_auto_20180326_1823.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0011_auto_20180326_1908.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0012_auto_20180326_1912.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/0013_auto_20180326_1923.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/css/accounts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/css/creative.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/css/search.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/img/background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/img/header.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/js/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/js/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/static/js/search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caaring/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/software/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/software/settings.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/software/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/software/wsgi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/cab_detail.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/homepage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/includes/cab_admin_view.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/includes/cab_pass_view.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/includes/form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/includes/messages.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/my_details.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/new_cab.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_change.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_change_done.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset_complete.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset_confirm.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset_done.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset_email.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset_subject.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/signup.html" />
+      <change beforePath="$PROJECT_DIR$/software/settings.py" afterPath="$PROJECT_DIR$/software/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,8 +28,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/software/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state relative-caret-position="567">
+              <caret line="147" column="56" lean-forward="true" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -304,33 +231,6 @@
               <item name="software" type="b2602c69:ProjectViewProjectNode" />
               <item name="software" type="462c0819:PsiDirectoryNode" />
               <item name="caaring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
-              <item name="caaring" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
-              <item name="caaring" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
-              <item name="caaring" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
-              <item name="caaring" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="software" type="b2602c69:ProjectViewProjectNode" />
@@ -851,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/software/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="567">
+          <caret line="147" column="56" lean-forward="true" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
           <folding />
         </state>
       </provider>
