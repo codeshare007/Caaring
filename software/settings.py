@@ -137,7 +137,7 @@ LOGOUT_REDIRECT_URL = 'home'
 
 
 EMAIL_BACKEND = "sendgrid_backend.SendgridBackend"
-SENDGRID_API_KEY = "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"
+SENDGRID_API_KEY = config('SENDGRID_API_KEY')
 SENDGRID_SANDBOX_MODE_IN_DEBUG = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
