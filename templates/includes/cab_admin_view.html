@@ -1,0 +1,25 @@
+
+{% for pass in passengers %}
+            <tr>
+              <td>
+                {{ pass.user.username }}
+              </td>
+               <td>
+                {{ pass.user.get_full_name }}
+              </td>
+
+              <td>{{ pass.approval_status }}</td>
+               <td>{{ pass.user.phone_number }}</td>
+
+                {% if cab.cab_admin == user %}
+                {% if pass.approval_status == "Requested" %}
+                <td>
+                    <div class="float-right">
+                    <a class="btn btn-primary btn-xl" href="{% url 'accept_pass' cab.name pass.user.username %}">Accept</a>
+                    <a class="btn btn-primary btn-xl" href="{% url 'decline_pass' cab.name pass.user.username %}">Decline</a>
+                        </div>
+                </td>
+                {% endif %}
+                {% endif %}
+            </tr>
+        {% endfor %}

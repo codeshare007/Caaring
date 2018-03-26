@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block title %}Cab Detail{% endblock %}
+
+{% block content %}
+<br>
+<h3>Cab Details</h3>
+<br>
+<div style="display:inline-block; text-align:right;">
+      <table class="table table-responsive">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Cab name</th>
+              <th scope="col">Source</th>
+              <th scope="col">Destination</th>
+              <th scope="col">Dep Date</th>
+              <th scope="col">Dep Time</th>
+              <th scope="col">Size</th>
+              <th scope="col">Seats left</th>
+            <th scope="col">Cab admin</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>
+                {{ cab.name }}
+              </td>
+                <td>{{ cab.source }}</td>
+                <td>{{ cab.destination }}</td>
+                <td>{{ cab.dep_date }}</td>
+                <td>{{ cab.dep_time }}</td>
+                <td>{{ cab.size }}</td>
+                <td>{{ cab.seats_left }}</td>
+              <td>{{ cab.cab_admin.username }}</td>
+            </tr>
+        </tbody>
+      </table>
+
+{% include 'includes/messages.html' %}
+
+    {% if button %}
+    {% if cab.seats_left > 0 %}
+
+<a class="btn btn-primary btn-xl js-scroll-trigger " href="{% url 'request_pass' cab.name %}">Request</a>
+
+    {% else %}
+
+
+   <div class="alert alert-danger col-lg-2 offset-lg-10">
+   Cab is full.
+</div>
+    {% endif %}
+    {% endif %}
+
+</div>
+
+
+
+<div>
+    <br>
+<h4>Passengers</h4>
+<br>
+  <table class="table table-responsive">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">Username</th>
+              <th scope="col">Name</th>
+            <th scope="col">Status</th>
+              {% if cab.cab_admin == user %}
+              <th scope="col">Contact Number</th>
+              {% endif %}
+          </tr>
+        </thead>
+        <tbody>
+        {% if cab.cab_admin == user %}
+       {% include 'includes/cab_admin_view.html' %}
+        {% else %}
+        {% include 'includes/cab_pass_view.html' %}
+        {% endif %}
+        </tbody>
+      </table>
+    </div>
+<br>
+<a class="btn btn-primary btn-xl js-scroll-trigger " href="{% url 'home' %}">Back</a>
+{% endblock %}

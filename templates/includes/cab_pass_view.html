@@ -1,0 +1,14 @@
+{% for pass in passengers %}
+{% if pass.approval_status == 'Approved' or pass.user == user %}
+            <tr>
+              <td>
+                {{ pass.user.username }}
+              </td>
+                <td>
+                {{ pass.user.get_full_name }}
+              </td>
+              <td>{{ pass.approval_status }}</td>
+
+            </tr>
+{% endif %}
+        {% endfor %}

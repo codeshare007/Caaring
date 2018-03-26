@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'css/search.css' %}">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+{% endblock %}
+
+{% block content %}
+<div class="search">
+  <span class="fa fa-search"></span>
+<input type="text" class="form-control" id="searchCab"  placeholder="Search">
+</div>
+
+<br>
+<br>
+<a href="{% url 'new_cab' %}" class="btn btn-primary" role="button">New Cab</a>
+<br>
+<br>
+<br>
+<h2>My Cabs</h2>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>Cab name</th>
+              <th>Source</th>
+              <th>Destination</th>
+              <th>Departure Date</th>
+              <th>Role</th>
+          </tr>
+        </thead>
+        <tbody id="myCabs">
+          {% for cab in my_cabs %}
+            <tr>
+              <td>
+                  <a href="{% url 'cab_detail' cab.name %}">{{ cab.name }}</a>
+
+              </td>
+                <td>
+                {{ cab.source }}
+              </td>
+                <td>
+                {{ cab.destination }}
+              </td>
+                 <td>
+                {{ cab.dep_date }}
+              </td>
+                {% if cab.cab_admin == user %}
+                <td>
+                Admin
+              </td>
+                {% else %}
+                <td>
+                Passenger
+              </td>
+                {% endif %}
+
+            </tr>
+          {% endfor %}
+        </tbody>
+
+      </table>
+
+<br>
+<h2>Other Cabs</h2>
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th>Cab name</th>
+              <th>Source</th>
+              <th>Destination</th>
+              <th>Departure Date</th>
+          </tr>
+        </thead>
+        <tbody id="otherCabs">
+          {% for cab in cabs %}
+            <tr>
+              <td>
+                  <a href="{% url 'cab_detail' cab.name %}">{{ cab.name }}</a>
+
+              </td>
+                <td>
+                {{ cab.source }}
+              </td>
+                <td>
+                {{ cab.destination }}
+              </td>
+                 <td>
+                {{ cab.dep_date }}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+
+      </table>
+<br>
+
+{% endblock %}
+{% block script %}
+<script src="{% static 'js/search.js' %}"></script>
+{% endblock %}
+
