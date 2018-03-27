@@ -1,2 +1,4 @@
 /secret.env
 /.env
+/software/static
+/db.sqlite3

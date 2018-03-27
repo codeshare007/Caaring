@@ -79,11 +79,15 @@ def Decline_pass(request,name,uname):
 @login_required
 def Cab_detail(request,name):
     try:
+        permission=False
         cab = Cab.objects.get(name=name)
         passengers=Passenger.objects.filter(of_cab=cab)
         try:
             curr_pass=passengers.get(user=request.user)
-            if curr_pass.approval_status == APPROVED or curr_pass.approval_status == REQUESTED:
+            if curr_pass.approval_status == APPROVED:
+                permission=True
+                button=False
+            elif curr_pass.approval_status == REQUESTED:
                 button=False
             else:
                 button=True
@@ -98,7 +102,8 @@ def Cab_detail(request,name):
                                                'user':request.user,
                                                'APPROVED':APPROVED,
                                                'REQUESTED':REQUESTED,
-                                               'DECLINED':DECLINED})
+                                               'DECLINED':DECLINED,
+                                               'permission':permission})
 
 @login_required
 def New_cab(request):

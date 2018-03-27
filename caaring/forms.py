@@ -29,6 +29,8 @@ class NewCabForm(forms.ModelForm):
 
 class SignupForm(UserCreationForm):
 
+    first_name=forms.CharField(max_length=30,required=True)
+    last_name=forms.CharField(max_length=100,required=False)
     email=forms.CharField(max_length=50,validators=[
         validators.RegexValidator(re.compile('^[\w.@+-]+$'))
     ])
