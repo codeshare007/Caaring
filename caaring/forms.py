@@ -29,7 +29,7 @@ class NewCabForm(forms.ModelForm):
 
 class SignupForm(UserCreationForm):
 
-    email=forms.CharField(max_length=30,validators=[
+    email=forms.CharField(max_length=50,validators=[
         validators.RegexValidator(re.compile('^[\w.@+-]+$'))
     ])
     class Meta:
