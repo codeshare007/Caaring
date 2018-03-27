@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f1bc265f-851b-48e5-a2e5-ef267eb90932" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/software/settings.py" afterPath="$PROJECT_DIR$/software/settings.py" />
+      <change beforePath="$PROJECT_DIR$/caaring/static/css/creative.min.css" afterPath="$PROJECT_DIR$/caaring/static/css/creative.min.css" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage.html" afterPath="$PROJECT_DIR$/templates/homepage.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,6 +15,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="57" column="15" lean-forward="false" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="40" column="55" lean-forward="false" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creative.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/caaring/static/css/creative.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caaring/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -26,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/software/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2520">
-              <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+              <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -56,53 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/caaring/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="my_details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/my_details.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cab_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/cab_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cab_admin_view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/includes/cab_admin_view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cab_pass_view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/includes/cab_pass_view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -155,7 +154,6 @@
         <option value="$PROJECT_DIR$/templates/password_reset_subject.txt" />
         <option value="$PROJECT_DIR$/templates/password_reset_email.html" />
         <option value="$PROJECT_DIR$/templates/includes/form.html" />
-        <option value="$PROJECT_DIR$/templates/homepage.html" />
         <option value="$PROJECT_DIR$/caaring/admin.py" />
         <option value="$PROJECT_DIR$/caaring/static/css/app.css" />
         <option value="$PROJECT_DIR$/templates/signup.html" />
@@ -182,6 +180,9 @@
         <option value="$PROJECT_DIR$/software/wsgi.py" />
         <option value="$PROJECT_DIR$/software/urls.py" />
         <option value="$PROJECT_DIR$/software/settings.py" />
+        <option value="$PROJECT_DIR$/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/static/css/creative.min.css" />
+        <option value="$PROJECT_DIR$/caaring/static/css/creative.min.css" />
       </list>
     </option>
   </component>
@@ -222,6 +223,19 @@
             <path>
               <item name="software" type="b2602c69:ProjectViewProjectNode" />
               <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="caaring" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="caaring" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
               <item name="software" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,11 +266,11 @@
       <recent name="C:\Users\Mayank\Django\projects\software" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mayank\Django\projects\software" />
       <recent name="C:\Users\Mayank\Django\projects\software\caaring" />
       <recent name="C:\Users\Mayank\Django\projects\software\templates" />
       <recent name="C:\Users\Mayank\Django\projects\software\caaring\static\img" />
       <recent name="C:\Users\Mayank\Django\projects\software\caaring\static\css" />
-      <recent name="C:\Users\Mayank\Django\projects\software\caaring\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,9 +318,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17927022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17927022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -332,13 +345,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/caaring/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -533,14 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -559,30 +557,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="20" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
           <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="57" column="15" lean-forward="false" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,7 +614,7 @@
         <state relative-caret-position="591">
           <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -690,16 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/python/python/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/software/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -707,14 +676,6 @@
           <folding>
             <element signature="e#225#234#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/creative.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2890" lean-forward="true" selection-start-line="0" selection-start-column="2890" selection-end-line="0" selection-end-column="2890" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,10 +703,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/python/python/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/software/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
-          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="57" column="15" lean-forward="false" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="40" column="55" lean-forward="false" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/creative.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caaring/static/css/creative.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
