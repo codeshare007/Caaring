@@ -41,6 +41,9 @@ class Cab(models.Model):
     def __str__(self):
         return str(self.name)
 
+    def clean(self):
+        self.name = self.name.lower()
+
 
 class Passenger(models.Model):
     STATUS_CHOICES=(

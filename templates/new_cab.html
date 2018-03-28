@@ -8,30 +8,7 @@
 <br>
   <form method="post" novalidate>
     {% csrf_token %}
-    <!--<div class="form-group">-->
-      <!--<label for="id_name">Name</label>-->
-      <!--<input type="text" class="form-control" id="id_name" name="name">-->
-    <!--</div>-->
-    <!--<div class="form-group">-->
-      <!--<label for="id_source">Source</label>-->
-      <!--<input type="text" class="form-control" id="id_source" name="source">-->
-    <!--</div>-->
-   <!--<div class="form-group">-->
-      <!--<label for="id_destination">Destination</label>-->
-      <!--<input type="text" class="form-control" id="id_destination" name="destination">-->
-    <!--</div>-->
-    <!--<div class="form-group">-->
-      <!--<label for="id_dep_date">Departure Date</label>-->
-      <!--<input type="text" class="form-control" id="id_dep_date" name="dep_date">-->
-    <!--</div>-->
-    <!--<div class="form-group">-->
-      <!--<label for="id_dep_time">Departure Time</label>-->
-      <!--<input type="text" class="form-control" id="id_dep_time" name="dep_time">-->
-    <!--</div>-->
-    <!--<div class="form-group">-->
-      <!--<label for="id_size">Size</label>-->
-      <!--<input type="text" class="form-control" id="id_size" name="size">-->
-    <!--</div>-->
+
     {% include 'includes/form.html' %}
     <button type="submit" class="btn btn-success">Create</button>
   </form>
@@ -39,3 +16,4 @@
 {% include 'includes/messages.html' %}
 
 {% endblock %}
+

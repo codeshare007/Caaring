@@ -10,6 +10,8 @@ from .models import Cab, User
 class NewCabForm(forms.ModelForm):
     #message=forms.CharField(widget=forms.Textarea(), max_length=4000)\
 
+    dep_date=forms.DateField(widget=forms.TextInput(attrs={'type': 'date'}))
+    dep_time=forms.TimeField(widget=forms.TextInput(attrs={'type': 'time'}))
     class Meta:
         model=Cab
         fields = ['name', 'source','destination','dep_date','dep_time','size']
